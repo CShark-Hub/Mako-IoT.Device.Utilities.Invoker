@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
-	<metadata>
-		<id>MakoIoT.Device.Utilities.Invoker</id>
-		<version>$version$</version>
-		<title>MakoIoT.Device.Utilities.Invoker</title>
-		<authors>CSHARK</authors>
-		<requireLicenseAcceptance>true</requireLicenseAcceptance>
-		<license type="file">LICENSE.md</license>
-		<releaseNotes>
-		</releaseNotes>
-		<readme>docs\README.md</readme>
-		<developmentDependency>false</developmentDependency>
-		<projectUrl>https://github.com/CShark-Hub/Mako-IoT.Invoker</projectUrl>
-		<repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Invoker" />
-		<copyright>Copyright (c) CSHARK Sp. z o. o.</copyright>
-		<description>Simple transient fault handling (re-try) library for .NET nanoFramework C# projects.</description>
-		<tags>nanoFramework C# csharp netmf netnf timezone</tags>
-		<dependencies>
-			<dependency id="nanoFramework.CoreLibrary" version="1.14.2" />
-		</dependencies>
-	</metadata>
-	<files>
-		<file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.dll" target="lib\MakoIoT.Device.Utilities.Invoker.dll" />
-		<file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.pdb" target="lib\MakoIoT.Device.Utilities.Invoker.pdb" />
-		<file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.pdbx" target="lib\MakoIoT.Device.Utilities.Invoker.pdbx" />
-		<file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.pe" target="lib\MakoIoT.Device.Utilities.Invoker.pe" />
-		<file src="README.md" target="docs\" />
-		<file src="LICENSE.md" target="" />
-	</files>
+  <metadata>
+    <id>MakoIoT.Device.Utilities.Invoker</id>
+    <version>$version$</version>
+    <title>MakoIoT.Device.Utilities.Invoker</title>
+    <authors>CSHARK</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/CShark-Hub/Mako-IoT.Invoker</projectUrl>
+    <repository type="git" url="https://github.com/CShark-Hub/Mako-IoT.Invoker" />
+    <copyright>Copyright (c) CSHARK Sp. z o. o.</copyright>
+    <description>Simple transient fault handling (re-try) library for .NET nanoFramework C# projects.</description>
+    <tags>nanoFramework C# csharp netmf netnf timezone</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.15.5" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.dll" target="lib\MakoIoT.Device.Utilities.Invoker.dll" />
+    <file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.pdb" target="lib\MakoIoT.Device.Utilities.Invoker.pdb" />
+    <file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.pdbx" target="lib\MakoIoT.Device.Utilities.Invoker.pdbx" />
+    <file src="src\MakoIoT.Device.Utilities.Invoker\bin\Release\MakoIoT.Device.Utilities.Invoker.pe" target="lib\MakoIoT.Device.Utilities.Invoker.pe" />
+    <file src="README.md" target="docs\" />
+    <file src="LICENSE.md" target="" />
+  </files>
 </package>
